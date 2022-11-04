@@ -1,6 +1,48 @@
-<div class="image" />
 
-<body>
+
+
+
+
+
+
+
+
+
+
+<svelte:head>
+  <title>Home</title>
+  <meta name="description" content="Svelte demo app" />
+</svelte:head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="image" />
+
+<!-- <body>
 	<div class="center" id="navbar-background">
 		<div id="navbar">
 			<ul>
@@ -11,15 +53,14 @@
 			</ul>
 		</div>
 	</div>
-</body>
-<div id="right" />
+</body> -->
 
 
 
 <!-- ========================================================================================================================================= -->
 <style>
 	@import url('http://fonts.cdnfonts.com/css/valorant');
-	body {
+	#image {
 		background-image: url('/src/images/background.jpg');
 	}
 	#navbar-background {
