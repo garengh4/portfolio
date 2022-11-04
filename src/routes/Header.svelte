@@ -44,7 +44,7 @@
 	nav {
 		display: flex;
 		justify-content: center;
-		--background: rgba(255, 255, 255, 0.7);
+		--background-color: rgba(255, 255, 255, 0.7);
 	}
 	svg {
 		width: 2em;
@@ -53,20 +53,18 @@
 	}
 
 	path {
-		fill: var(--background);
+		fill: var(--background-color);
 	}
 
 	ul {
-		position: relative;
 		padding: 0;
 		margin: 0;
 		height: 3em;
+    width: 25em;
 		display: flex;
 		justify-content: center;
-		align-items: center;
-		list-style: none;
-		background: var(--background);
-		background-size: contain;
+ 		list-style: none;
+		background: var(--background-color);
 	}
 
 	li {
@@ -83,24 +81,24 @@
 		top: 0;
 		left: calc(50% - var(--size));
 		border: var(--size) solid transparent;
-		border-top: var(--size) solid var(--color-theme-1);
+		border-top: var(--size) solid #ff3e00;
 	}
 
 	nav a {
 		display: flex;
 		height: 100%;
 		align-items: center;
-		padding: 0 0.5rem;
+		padding: 0 2em;
 		color: var(--color-text);
 		font-weight: 700;
 		font-size: 0.8rem;
 		text-transform: uppercase;
-		letter-spacing: 0.1em;
+		letter-spacing: 0.2em;
 		text-decoration: none;
 		transition: color 0.2s linear;
 	}
 
 	a:hover {
-		color: var(--color-theme-1);
+		color: #ff3e00;
 	}
 </style>
