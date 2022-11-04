@@ -1,19 +1,28 @@
+<!-- Note:+layout.svelte will appear in all routes' +page.svelte -->
+
 <script>
 	import Header from './Header.svelte';
 	import './styles.css';
 </script>
 
+<!-- ============================================================================================================================ -->
+
+<!-- header -->
 <div class="app">
 	<Header />
 
+  <!-- app content -->
 	<main>
 		<slot />
 	</main>
 
+  <!-- footer -->
 	<footer>
 		<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
 	</footer>
 </div>
+
+<!-- ============================================================================================================================ -->
 
 <style>
 	.app {
